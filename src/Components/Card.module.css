@@ -1,0 +1,83 @@
+.card{
+   margin-top: 5rem;
+    display: flex;
+    align-items: start;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.displayshoe{
+    width: 500px;
+    border-radius: 10px;
+}
+.extraimages{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.extrashoe{
+    width:60px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.textarea{
+    margin-left: 20px;
+}
+.sizebuttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7px;
+    margin-bottom: 30px;
+}
+.sizetext{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.buttswithsize{
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 70%);
+    font-weight: 500;
+    
+}
+.heading{
+    margin-bottom: 2rem;
+}
+.finalbuttons{
+    margin: 0;
+}
+.bagbutt {
+    border-radius: 100px;
+    font-weight: 600;
+}
+.favbutt {
+    border-radius: 100px;
+    color: black;
+    font-weight: 600;
+}
+.unselectdebutt{
+    background-color: aquamarine;
+}
+
+  
+  @media (max-width: 769px) {
+    .card {
+      flex-direction: column;
+      margin-top: 0;
+     
+    }
+    .carouselslide{
+        margin-bottom: 2rem;
+    }
+    .textarea{
+        margin-top: 2rem;
+    }
+    
+
+  }
+  
